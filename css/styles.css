@@ -1,18 +1,46 @@
 /* styles.css */
+
 body {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .genero-container {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f8f8f8;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
 }
 
 h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.genero {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.genero div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+img {
+    width: 200px;
+    height: 300px;
 }
 
 
+/*
+p {
+    justify-items: left;
+    border-left: 190px;
+    width: 200px;
+    height: 50px;
+    font-size: 10px;
+}*/
